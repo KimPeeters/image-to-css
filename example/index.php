@@ -1,5 +1,5 @@
 <?php
-require_once dirname(__FILE__).'/imgToCss.php';
+require_once dirname(__FILE__).'/../lib/imgToCss.php';
 
 $imgToCss = new ImgToCss();
 $imgToCss->addDirectory(dirname(__FILE__).'/testimg');
